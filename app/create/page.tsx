@@ -51,7 +51,7 @@ export default function Create() {
             <form className="needs-validation" onSubmit={onSubmitCreate}>
                 <div className="form-floating mb-3">
                     <input className="form-control form-control-lg" type="number" id="number" name="number" required minLength={1} maxLength={10}/>
-                    <label className="form-label" htmlFor="number">回数</label>
+                    <label className="form-label" htmlFor="number">分数</label>
                 </div>
                 <div className="form-floating mb-3">
                     <input className="form-control form-control-lg" type="date" id="expiredAt" name="expiredAt"/>
