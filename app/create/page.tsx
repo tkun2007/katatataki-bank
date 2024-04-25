@@ -94,11 +94,11 @@ export default function Create() {
         <>
             <div className="flex items-center h-[100dvh]">
                 <div className="container">
-                    <h1>券発行フォーム</h1>
+                    <h1>発券フォーム</h1>
                     <form className="needs-validation" onSubmit={onSubmitCreate}>
                         <div className="form-floating mb-3">
-                            <input className="form-control form-control-lg" type="number" id="number" name="number" required minLength={1} maxLength={10} />
-                            <label className="form-label" htmlFor="number">回数</label>
+                            <input className="form-control form-control-lg" type="text" id="text" name="text" required minLength={1} maxLength={10} />
+                            <label className="form-label" htmlFor="text">券名</label>
                         </div>
                         <div className="form-floating mb-3">
                             <input className="form-control form-control-lg" type="date" id="expiredAt" name="expiredAt" />
